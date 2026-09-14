@@ -1,8 +1,0 @@
-﻿{
-  "name": "anniversary-7-years",
-  "version": "1.0.0",
-  "description": "Ky niem 7 nam - Dui thom & Dut Dut thui",
-  "scripts": {
-    "build": "echo 'Static site ready'"
-  }
-}
