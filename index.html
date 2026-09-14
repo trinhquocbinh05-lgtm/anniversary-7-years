@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Kỷ Niệm 7 Năm Yêu Nhau • Đụt Đụt thúi & Dúi thơm 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700;900&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating background particles -->
+  <div class="bg-decorations" id="bgDecorations"></div>
+
+  <!-- Audio control button -->
+  <button id="musicToggle" class="music-btn" title="Bật/Tắt âm thanh" aria-label="Bật/Tắt âm thanh">
+    <span id="musicIcon">🎵</span>
+  </button>
+
+  <!-- Main Container -->
+  <main class="container" id="mainContainer">
+    <!-- SECTION 1: Question & Troll Card -->
+    <section class="card" id="questionCard">
+      <div class="badge">
+        <span class="heart-pulse">💖</span> Đụt Đụt thúi & Dúi thơm • Kỷ Niệm 7 Năm
+      </div>
+
+      <!-- Character Container (Animated GIF) -->
+      <div class="character-container" id="characterContainer">
+        <!-- Speech Bubble -->
+        <div class="speech-bubble" id="speechBubble">
+          <span id="dialogueText">Đụt Đụt thúi có muốn tiếp tục mối quan hệ này với Dúi thơm hông nè? ✨</span>
+        </div>
+
+        <!-- GIF Mascot Wrapper -->
+        <div class="mascot-wrapper" id="mascotWrapper">
+          <img src="images/propose_bubu.gif" alt="Dúi thơm cầu hôn Đụt Đụt thúi" id="mascotGif" class="mascot-gif">
+        </div>
+      </div>
+
+      <!-- Question Header -->
+      <div class="question-header">
+        <h1 class="main-title">Bạn có muốn tiếp tục mối quan hệ này không?</h1>
+        <p class="subtitle">Đã 7 năm bên nhau rồi đó, suy nghĩ cho kỹ nha Đụt Đụt thúi! 🥺👉👈</p>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="buttons-container" id="buttonsContainer">
+        <button class="btn btn-yes-super" id="btnSuperYes" type="button">
+          <span class="btn-icon">💖</span>
+          <span class="btn-text">Rất muốn!</span>
+        </button>
+
+        <button class="btn btn-yes" id="btnYes" type="button">
+          <span class="btn-icon">🥰</span>
+          <span class="btn-text">Có chứ!</span>
+        </button>
+
+        <button class="btn btn-no" id="btnNo" type="button">
+          <span class="btn-icon">🙅‍♀️</span>
+          <span class="btn-text" id="btnNoText">Hỏng muốn</span>
+        </button>
+      </div>
+
+      <!-- Counter of escapes -->
+      <div class="counter-text" id="counterText"></div>
+
+      <!-- Direct link to story -->
+      <button class="btn-link-story" id="btnOpenStoryDirect" type="button">
+        <span>📖 Xem nhật ký 7 năm của chúng mình ➔</span>
+      </button>
+    </section>
+
+    <!-- SECTION 2: Celebration Screen (Success) - 2 Columns on Laptop -->
+    <section class="card celebration-card" id="celebrationCard" style="display:none;">
+      <div class="celebration-grid">
+        <!-- Left Column: Badge, Mascot, Title, Timer -->
+        <div class="celebration-col-left">
+          <div class="celebration-badge">
+            <span>🎉 YEEEYYY! BIẾT NGAY LÀ ĐỤT ĐỤT THÚI THƯƠNG DÚI THƠM MÀ! 🎉</span>
+          </div>
+
+          <div class="celebration-mascot">
+            <img src="images/happy0.gif" alt="Hạnh phúc bên nhau" id="celebrationGif" class="celebration-gif">
+          </div>
+
+          <h1 class="celebration-title">Chúc Mừng Kỷ Niệm 7 Năm!</h1>
+          
+          <div class="timer-box">
+            <p class="timer-label">Hành trình Đụt Đụt thúi & Dúi thơm cùng nhau:</p>
+            <div class="timer-display">
+              <div class="time-segment"><span class="time-val">7</span><span class="time-unit">Năm</span></div>
+              <div class="time-segment"><span class="time-val">84</span><span class="time-unit">Tháng</span></div>
+              <div class="time-segment"><span class="time-val">2.556</span><span class="time-unit">Ngày</span></div>
+              <div class="time-segment"><span class="time-val">61.344</span><span class="time-unit">Giờ</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Love Letter & Action Buttons -->
+        <div class="celebration-col-right">
+          <div class="love-letter">
+            <p class="letter-greeting">Gửi Đụt Đụt thúi yêu dấu của Dúi thơm,</p>
+            <p class="letter-body">
+              Cảm ơn em vì đã luôn kiên nhẫn, yêu thương và đồng hành cùng anh qua suốt 7 năm thanh xuân tuyệt vời vừa rồi. Dù có những lúc cãi cọ, chí chóe hay trẻ con, nhưng sau cùng người anh muốn nắm tay nhất vẫn mãi là em.
+            </p>
+            <p class="letter-body highlight">
+              "Hết 7 năm này rồi, hợp đồng tình yêu tự động gia hạn thêm 70 năm nữa, cấm khiếu nại hay huỷ ngang nha!" 💍✨
+            </p>
+            <p class="letter-signature">Dúi thơm yêu Đụt Đụt thúi nhất trên đời! ❤️</p>
+          </div>
+
+          <div class="celebration-actions">
+            <button class="btn btn-view-story-again" id="btnReplayStory" type="button">
+              <span>📖 Xem lại hành trình 7 năm</span>
+            </button>
+            <button class="btn btn-replay" id="btnReplay" type="button">
+              <span>🔄 Dúi thơm muốn hỏi lại lần nữa</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SECTION 3: 7-Year Journey Story Slideshow (Full-Screen Overlay) -->
+  <div class="story-overlay" id="storyOverlay" style="display:none;">
+    <div class="story-modal">
+      <!-- Story Progress Bars (6 bars for 6 milestones) -->
+      <div class="story-progress-container" id="storyProgressContainer">
+        <div class="story-bar"><div class="story-fill"></div></div>
+        <div class="story-bar"><div class="story-fill"></div></div>
+        <div class="story-bar"><div class="story-fill"></div></div>
+        <div class="story-bar"><div class="story-fill"></div></div>
+        <div class="story-bar"><div class="story-fill"></div></div>
+        <div class="story-bar"><div class="story-fill"></div></div>
+      </div>
+
+      <!-- Story Header Controls -->
+      <div class="story-header">
+        <div class="story-tag" id="storyMilestoneTag">CỘT MỐC 01 / 06</div>
+        <button class="story-close-btn" id="storyCloseBtn" title="Đóng câu chuyện">✕</button>
+      </div>
+
+      <!-- Clickable Tap Zones for Next / Prev (Instagram Story UX) -->
+      <div class="story-tap-zone tap-left" id="tapLeft"></div>
+      <div class="story-tap-zone tap-right" id="tapRight"></div>
+
+      <!-- Slide Main Content -->
+      <div class="story-body" id="storyBody">
+        <div class="story-image-wrap">
+          <img src="images/bubu_dudu_cover.png" alt="Story Illustration" id="storyImage" class="story-img">
+        </div>
+
+        <div class="story-caption-box">
+          <div class="story-year-pill" id="storyYear">Năm 2019 • Mở đầu</div>
+          <h2 class="story-title" id="storyTitle">Ngày ấy... chỉ là bạn trong nhóm bạn</h2>
+          <p class="story-desc" id="storyDesc">
+            Ngày đó đi học chung, hai đứa chỉ là những người bạn ngây ngô trong cùng một nhóm bạn. Vô tư trêu đùa, chẳng ai nghĩ rằng từ những lần gặp gỡ tình cờ ấy, lại là mở đầu cho câu chuyện tình 7 năm ngọt ngào.
+          </p>
+        </div>
+      </div>
+
+      <!-- Story Bottom Navigation -->
+      <div class="story-footer">
+        <button class="story-nav-btn btn-prev" id="storyBtnPrev">◀ Trước đó</button>
+        <div class="story-dots" id="storyDots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="story-nav-btn btn-next" id="storyBtnNext">Tiếp theo ▶</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fullscreen Confetti Canvas -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
